@@ -1,9 +1,12 @@
-Modifica foglio di calcolo su reclami degli utenti
+**Modifica foglio di calcolo su reclami degli utenti**
+
 Questo progetto consiste nel modificare il foglio di calcolo allegato in modo da soddisfare alcuni
 requisiti.
-Il dataset
+
+**Il dataset**
 Per cominciare, il file Excel contiene una banca dati di reclami degli utenti fatti a compagnie di
 gestione finanziaria.
+
 Le colonne di tale file rappresentano dati utili al fine di valutare il grado di soddisfazione dei
 clienti, in particolare:
 ● Date received: la data in cui è stato fatto il reclamo in formato YYY-MM-DD
@@ -27,7 +30,9 @@ della risposta
 Cosa devi fare
 Per realizzare il progetto, dovrai modificare il foglio di calcolo allegato in modo da fargli avere la
 seguente struttura:
-Primo tab o scheda
+
+
+**Primo tab o scheda**
 ● Nome: "Consumer complaints"
 ● Stile:
 ○ La prima riga di intestazione ha carattere Comics Sans MS, dimensione 12pt e
@@ -44,7 +49,9 @@ data di invio e quella di ricezione della comunicazione
 colonna Complaint ID
 ○ È presente un filtro sulla colonna Date received, che permette la
 visualizzazione delle sole righe con data antecedente al 8 agosto 2016
-Secondo tab o scheda
+
+
+**Secondo tab o scheda**
 ● Nome: "Geographical insights"
 ● Stile:
 ○ La prima riga di intestazione ha carattere Comics Sans MS, dimensione 12pt e
@@ -64,7 +71,9 @@ suddivise per stato (Hint: utilizzare la funzione CONTA.SE)
 successivo) di lamentele presenti nel tab principale suddivise per stato. La cella è
 di colore verde se tale percentuale è inferiore al 2%, rossa altrimenti (Hint:
 formattazione condizionale)
-Terzo tab o scheda
+
+
+**Terzo tab o scheda**
 ● Nome: "Statistical insights"
 ● Stile:
 ○ La prima riga di intestazione ha carattere Comics Sans MS, dimensione 12pt e
